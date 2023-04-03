@@ -1455,16 +1455,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
 
     elif query.data == "owner_info":
-            btn = [[
+        buttons = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="start"),
                     InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="t.me/TEAM_SNS_BOT")
-                  ]]
-            await client.edit_message_media(
-                query.message.chat.id, 
-                query.message.id, 
-                InputMediaPhoto(random.choice(PICS))
-            )
-            reply_markup = InlineKeyboardMarkup(buttons)
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
         m=await query.message.reply_text("● ◌ ◌")
         n=await m.edit("● ● ◌")
         o=await n.edit("● ● ●")
@@ -1476,7 +1471,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-
     elif query.data == "wikipedia":
         buttons = [[
             InlineKeyboardButton('« 𝐵𝑎𝑐𝑘', callback_data='help')
