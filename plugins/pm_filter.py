@@ -1239,7 +1239,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🔍 sᴇᴀʀᴄʜ​', switch_inline_query_current_chat=''),
             InlineKeyboardButton('👨‍💻 ᴅᴇᴠ​', callback_data='owner_info')
             ],[      
-            InlineKeyboardButton('🎭 ʜᴇʟᴘ 🎭', callback_data='hellp'),
+            InlineKeyboardButton('🎭 ʜᴇʟᴘ 🎭', callback_data='help'),
             InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about')
             ],[
             InlineKeyboardButton('💰 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 💸', callback_data='money_bot')
@@ -1257,7 +1257,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
         await query.answer(MSG_ALRT)
         
-    elif query.data == "help":
+    elif query.data == "hellp":
         buttons = [[
             InlineKeyboardButton('ᴍᴀɴᴜᴇʟ ғɪʟᴛᴇʀ', callback_data='manuelfilter'),
             InlineKeyboardButton('ᴀᴜᴛᴏ ғɪʟᴛᴇʀ', callback_data='autofilter'),
@@ -1330,7 +1330,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-    elif query.data == "hellp":
+    elif query.data == "help":
         buttons = [[
             InlineKeyboardButton('𝑀𝑎𝑛𝑢𝑒𝑙 𝐹𝑖𝑙𝑡𝑒𝑟', callback_data='manuelfilter'),
             InlineKeyboardButton('𝐴𝑢𝑡𝑜 𝐹𝑖𝑙𝑡𝑒𝑟', callback_data='autofilter'),
