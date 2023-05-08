@@ -17,9 +17,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ['API_ID', '22882517'])
-API_HASH = environ['API_HASH', 'fdbcfbaf87d91ca8f6cea9badd4f8876']
-BOT_TOKEN = environ['BOT_TOKEN', "6251010310:AAEjCFcPjJotlQyaUssYWKtzU9hEkl3AZtM"]
+API_ID = int(environ['API_ID', ''])
+API_HASH = environ['API_HASH', '']
+BOT_TOKEN = environ['BOT_TOKEN', ""]
 
 
 # Bot settings
@@ -27,12 +27,12 @@ CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 BOT_START_TIME = time()
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/a539dce9b42e8d0144b98.jpg')).split()
-MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/f7f2a532fe4b990044507.mp4")
-NOR_IMG = (environ.get('NOR_IMG', 'https://telegra.ph/file/a539dce9b42e8d0144b98.jpg')).split()
+PICS = (environ.get('PICS', '')).split()
+MELCOW_VID = environ.get("MELCOW_VID", "")
+NOR_IMG = (environ.get('NOR_IMG', '')).split()
 NEWGRP = environ.get("NEWGRP", "https://telegra.ph/file/a539dce9b42e8d0144b98.jpg")
-CLOSE_IMG = (environ.get('CLOSE_IMG', 'https://telegra.ph/file/a539dce9b42e8d0144b98.jpg')).split()
-JOIN_IMG = (environ.get('JOIN_IMG', 'https://telegra.ph/file/a539dce9b42e8d0144b98.jpg')).split()
+CLOSE_IMG = (environ.get('CLOSE_IMG', '')).split()
+JOIN_IMG = (environ.get('JOIN_IMG', '')).split()
                     
 # Admins, Log, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
@@ -49,8 +49,8 @@ LOGIN_CHANNEL = int(login_channel) if login_channel and id_pattern.search(login_
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 
 # Custom Chats
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL', '-1001802421220'))
-FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/jerryfiles')
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL', ''))
+FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', '')
 
 #VALUES
 HRK_APP_NAME = environ.get('HRK_APP_NAME', 'mybots')
@@ -71,7 +71,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # FSUB
-auth_channel = environ.get('AUTH_CHANNEL', '-1001191907396')
+auth_channel = environ.get('AUTH_CHANNEL', '')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 # Set to False inside the bracket if you don't want to use Request Channel else set it to Channel ID
 REQ_CHANNEL = environ.get("REQ_CHANNEL", False)
@@ -86,8 +86,8 @@ APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shorturllink.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', '1040441295b9bc5ef8368823331d45a6be7d2274')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
+SHORTLINK_API = environ.get('SHORTLINK_API', '')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 NO_RESULTS_MSG = bool(environ.get('NO_RESULTS_MSG', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
