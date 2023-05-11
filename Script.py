@@ -33,7 +33,7 @@ class script(object):
 ‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ​]</b>"""
     SOURCE_TXT = """<b>NOTE:
 ⚠️ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴀɴ PRIVATE ᴘʀᴏᴊᴇᴄᴛ
-◆ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href=https://t.me/san_245'>ʜᴇʀᴇ</a>
+◆ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href='https://t.me/san_245'>ʜᴇʀᴇ</a>
 
 ◆ ᴀʟʟ ᴄʀᴇᴅɪᴛs​: <a href='https://t.me/san_245'>S.K.S</a></b>"""
     MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
