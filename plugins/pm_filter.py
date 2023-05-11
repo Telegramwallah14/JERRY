@@ -337,7 +337,7 @@ async def next_page(bot, query):
                     ],
                 )
     btn.insert(0, [
-        InlineKeyboardButton(f'🔍 {search} 🔎', 'reqst1')
+        InlineKeyboardButton(text="💢 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗠𝗮𝗶𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 💢", url='https://youtube.com/@telegramwallah3835')
     ])
     try:
         await query.edit_message_reply_markup(
@@ -547,7 +547,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             )
 
     btn.insert(0, [
-        InlineKeyboardButton("💢 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐆𝐫𝐨𝐮𝐩𝐬 💢", url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+        InlineKeyboardButton("⛔ ꜱᴜʙꜱᴄʀɪʙᴇ ᴏᴜʀ ʏᴛ ᴄʜᴀɴɴᴇʟ ⛔", url=f'https://youtube.com/@telegramwallah3835')
     ])
     offset = 0
 
