@@ -49,8 +49,8 @@ LOGIN_CHANNEL = int(login_channel) if login_channel and id_pattern.search(login_
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 
 # Custom Chats
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL', '-1001802421220'))
-FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/jerryfiles')
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL', '-1001902299493'))
+FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/+Qz6roJXNAiUyODBi')
 
 #VALUES
 HRK_APP_NAME = environ.get('HRK_APP_NAME', 'jerry1243')
@@ -96,7 +96,7 @@ S_GROUP = environ.get('S_GROUP',"https://t.me/sksdiscussion")
 MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/sksbackup1")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/sks_support_group')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/sksbackup1')
-MSG_ALRT = environ.get('MSG_ALRT', 'Piracy Is Crime')
+MSG_ALRT = environ.get('MSG_ALRT', 'Thank you Sks')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', 0))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'sks_support_group')
