@@ -54,7 +54,7 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('💰 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 💸', callback_data='money_bot')
             ],[
-            InlineKeyboardButton('💢 Subscribe 💢', url='https://youtube.com/@telegramwallah3835')
+            InlineKeyboardButton('⛔ ꜱᴜʙꜱᴄʀɪʙᴇ ᴏᴜʀ ʏᴛ ᴄʜᴀɴɴᴇʟ ⛔', url='https://youtube.com/@telegramwallah3835')
         ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -82,7 +82,7 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('💰 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 💸', callback_data='money_bot')
             ],[
-            InlineKeyboardButton('💢 Subscribe 💢', url='https://youtube.com/@telegramwallah3835')
+            InlineKeyboardButton('⛔ ꜱᴜʙꜱᴄʀɪʙᴇ ᴏᴜʀ ʏᴛ ᴄʜᴀɴɴᴇʟ ⛔', url='https://youtube.com/@telegramwallah3835')
         ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
