@@ -1602,7 +1602,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         if query.from_user.id in ADMINS:
             await query.message.edit_text(text=script.ADMIN_TXT, reply_markup=reply_markup, parse_mode=enums.ParseMode.HTML)
         else:
-            await query.answer("⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠\n\nIᴛꜱ ᴏɴʟʏ ғᴏʀ ᴍʏ ADMINS\n\n©ᴍʟᴢ ʙᴏᴛᴢ", show_alert=True)
+            await query.answer("⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠\n\nIᴛꜱ ᴏɴʟʏ ғᴏʀ ᴍʏ ADMINS\n\n©SKS", show_alert=True)
 
     elif query.data == "stats":
         buttons = [[           
@@ -1907,7 +1907,7 @@ async def auto_filter(client, msg, spoll=False):
             )
 
     btn.insert(0, [
-        InlineKeyboardButton(f'🔍 {search} 🔎', 'reqst1')
+        InlineKeyboardButton(text="💢 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗠𝗮𝗶𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 💢", url='https://youtube.com/@telegramwallah3835')
     ])
    # await message.delete()
     #m=await message.reply_text("🔍") 
