@@ -106,7 +106,7 @@ async def ForceSub(bot: Client, update: Message, file_id: str = False, mode="che
                 InlineKeyboardButton("💢 ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ 💢", url='https://youtube.com/@telegramwallah3835')
             ],
             [
-                InlineKeyboardButton("📥 ᴛʀʏ ᴀɢᴀɪɴ 📥", callback_data=f"{mode}#{file_id}")
+                InlineKeyboardButton("📥 ᴛʀʏ ᴀɢᴀɪɴ 📥", callback_data=f"{pre}#{file_id}")
             ]
         ]
         
