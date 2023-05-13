@@ -893,7 +893,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "pages":
         await query.answer()
         
-   elif query.data.startswith("send_fall"):
+    elif query.data.startswith("send_fall"):
         temp, ident, key, offset = query.data.split("#")
         search = BUTTONS.get(key)
         if not search:
@@ -903,7 +903,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await send_all(client, query.from_user.id, files, ident)
         await query.answer(f"Hey {query.from_user.first_name}, All files on this page has been sent successfully to your PM !", show_alert=True)
         
-   elif query.data.startswith("killfilesdq"):
+    elif query.data.startswith("killfilesdq"):
         ident, keyword = query.data.split("#")
         await query.message.edit_text(f"<b>Fetching Files for your query {keyword} on DB... Please wait...</b>")
         files, total = await get_bad_files(keyword)
