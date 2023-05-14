@@ -1,6 +1,6 @@
 import logging
 from pyrogram.errors import InputUserDeactivated, UserNotParticipant, FloodWait, UserIsBlocked, PeerIdInvalid
-from info import AUTH_CHANNEL, LONG_IMDB_DESCRIPTION, MAX_LIST_ELM, SHORTLINK_URL, SHORTLINK_API, LOG_CHANNEL, ADMINS, REQ_CHANNEL, LOGIN_CHANNEL, GRP_LNK, CHNL_LNK, CUSTOM_FILE_CAPTION
+from info import GRP_LNK, AUTH_CHANNEL, LONG_IMDB_DESCRIPTION, MAX_LIST_ELM, SHORTLINK_URL, SHORTLINK_API, LOG_CHANNEL, ADMINS, REQ_CHANNEL, LOGIN_CHANNEL, GRP_LNK, CHNL_LNK, CUSTOM_FILE_CAPTION
 from database.join_reqs import JoinReqs as db2
 from imdb import Cinemagoer 
 import asyncio
@@ -655,7 +655,7 @@ async def send_all(bot, userid, files, ident):
             reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("📥  ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ  📥", url=f"{mh.link}")
+                            InlineKeyboardButton("join my group", url=GRP_LNK)
                         ]
                     ]
                 )
