@@ -139,7 +139,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [                         
-                          InlineKeyboardButton("❤️‍🔥 Subscribe ❤️‍🔥", url='https://youtube.com/@telegramwallah3835')                         
+                          InlineKeyboardButton("🕹️ 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘 🕹️", url='https://youtube.com/@telegramwallah3835')                         
                          ]
                         ]
                     )
@@ -155,7 +155,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton("❤️‍🔥 Subscribe ❤️‍🔥", url='https://youtube.com/@telegramwallah3835')   
+                          InlineKeyboardButton("🕹️ 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘 🕹️", url='https://youtube.com/@telegramwallah3835')   
                          ]
                         ]
                     )
@@ -253,7 +253,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                          [
-                          InlineKeyboardButton("❤️‍🔥 Subscribe ❤️‍🔥", url='https://youtube.com/@telegramwallah3835')   
+                          InlineKeyboardButton("🕹️ 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘 🕹️", url='https://youtube.com/@telegramwallah3835')   
                          ]
                         ]
                     )
@@ -303,7 +303,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton("❤️‍🔥 Subscribe ❤️‍🔥", url='https://youtube.com/@telegramwallah3835')   
+              InlineKeyboardButton("🕹️ 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘 🕹️", url='https://youtube.com/@telegramwallah3835')   
              ]
               ]
        )
