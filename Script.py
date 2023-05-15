@@ -157,7 +157,7 @@ Nᴀᴍᴇ - {}"""
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """
-@Sksbackup1 {file_name}
+❍ {file_name}
 
 ❍ sɪᴢᴇ : {file_size}
 
